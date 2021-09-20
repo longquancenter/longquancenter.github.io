@@ -1,0 +1,144 @@
+body { 
+    color: #b88067;
+    background-color: rgb(8, 42, 53);
+    /* text-align:center; */
+    font-family: 'Noto Serif SC', serif;
+	/* font-family: 'Ma Shan Zheng', cursive;*/
+} 
+
+.accordion {
+	background-color: rgb(8, 42, 53);
+	/* color: #444; */
+	cursor: pointer;
+	padding: 18px;
+	width: 100%;
+	border: none;
+	/* text-align: left; */
+	outline: none;
+	/* font-size: 15px; */
+	transition: 0.4s;
+  }
+  
+  .active, .accordion:hover {
+	/* background-color: #ccc; */
+  }
+  
+  .accordion:after {
+	content: '\002B';
+	/* color: #777; */
+	font-weight: bold;
+	float: right;
+	margin-left: 5px;
+  }
+  
+  .active:after {
+	content: "\2212";
+  }
+  
+  .panel {
+	padding: 0 18px;
+	/* background-color: white; */
+	max-height: 0;
+	overflow: hidden;
+	transition: max-height 0.2s ease-out;
+  }
+
+p {font-size:180%;line-height:  200%;;font-weight:bold; text-align: left;width:100%}
+
+h1 {font-size: 300%;color:#b84b0c;font-weight:bold;margin-bottom:15px;text-align:center;padding-bottom: 10px;border-bottom-width: 1px;border-bottom-style: solid;border-bottom-color: #CCCCCC}
+h2 {font-size: 220%;color:#b84b0c;font-weight:bold;margin-bottom:15px;text-align:center;padding-bottom: 10px;border-bottom-width: 1px;border-bottom-style: solid;border-bottom-color: #CCCCCC}
+.box {
+	
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+.center {
+    margin: auto;
+    width: 80%;
+    text-align:center;
+    /* border: 3px solid green;
+    padding: auto 10px; */
+  }
+.commentary-l {font-size:  120%;line-height:  200%;; padding-left: 4%; margin: 2%;text-align: right; }
+.commentary-r {font-size:  120%;line-height:  200%; padding-bottom: 6%; margin: 2%; text-align: left; }
+.commentary2 {font-size:  120%;line-height:  200%;;color:#868686;text-align: center;}
+.t1 { color:#868686; text-align:center; line-height:150%}
+.t2 { font-size:  220%; margin}
+.t2b { color:#868686}
+.t2c { color:#666699; line-height:150%}
+.t3 {font-size: 110%; color:#868686;  ; line-height:150%}
+.t3b {font-size: 110%; color:#868686; text-align:center; line-height:150%}
+.t3c {font-size: 110%; color:#666699; line-height:150%}
+.t4 {font-size:  120%;line-height:  200%;; ; font-weight:bold}
+.t4b {font-size:  120%;line-height:  200%;;color:#868686; font-weight:bold}
+.t5 {font-size:  120%;line-height:  200%;; ; font-weight:bold; margin-left:100}
+.t6{FONT-SIZE:  200%; color: #666699; ; margin-top:12; font-weight:bold}
+.t7{ color: #CACADB; font-family: 'Noto Serif SC', serif; line-height:150%; text-align:right}
+.t8{ color: #CACADB; font-family: 'Noto Serif SC', serif; line-height:150%;  }
+
+.title2 {font-size: 180%;font-weight:bold;margin-bottom:30px;text-align:center;
+	padding-bottom: 10px;border-bottom-width: 1px;border-bottom-style: solid;border-bottom-color: #CCCCCC}
+
+
+.commentary3 {font-size:  120%;line-height:  200%;;color:#868686; margin-left:220px}
+.verse {font-size: 140%;line-height:150%;  color:#CC0000; text-align:center}
+.verse1 {	
+	font-size: 340%;
+	color:#a5710a;
+	text-align:center;
+}
+	
+.verse2 {
+	line-height:150%;
+	color:#996600;
+	text-align:center;
+	/*background-color: #fdf3d3;*/
+	border: 1px solid #996600;
+	margin-bottom: 3%;
+	padding: 1%;
+	font-size: 200%;
+
+}
+.verse3 {font-size:  120%;line-height: 200%; ; color:#CC6600; margin-left:80px; font-weight:bold}
+.verse4 {font-size:  120%;line-height: 200%; ; color:#800080; margin-left:80px}
+.verse5 {
+	font-size: 140%;
+	line-height:150%;
+	color:#996600;
+	/* background-color: #fdf3d3; */
+	border: 1px solid #996600;
+	margin-bottom: 30px;
+	padding: 6pt;
+
+}
+.subtitle {
+	font-size:  200%;
+	line-height:150%;
+    clear: left;
+	color:#666699;
+	text-align:center;
+	/* background-color: #fdf3d3; */
+	border: 1px solid #666699;
+	margin-bottom: 30px;
+	padding: 2pt;; font-weight:bold
+}
+.spacer {
+	clear: both;
+	height: 5px;
+}
+a.{text-decoration: none;}
+a:link {
+	color:#666699;
+	text-decoration: none;
+}
+a:visited {
+	color:#666699;
+	text-decoration: none;
+}
+a:active {
+	color:#666699;
+	text-decoration: none;
+}
+a:hover {color:#CC9900; text-decoration:underline}
