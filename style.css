@@ -45,8 +45,8 @@ body {
 
 p {font-size:180%;line-height:  200%;;font-weight:bold; text-align: left;width:100%}
 
-h1 {font-size: 300%;color:#b84b0c;font-weight:bold;margin-bottom:15px;text-align:center;padding-bottom: 10px;border-bottom-width: 1px;border-bottom-style: solid;border-bottom-color: #CCCCCC}
-h2 {font-size: 220%;color:#b84b0c;font-weight:bold;margin-bottom:15px;text-align:center;padding-bottom: 10px;border-bottom-width: 1px;border-bottom-style: solid;border-bottom-color: #CCCCCC}
+h1 {font-size: 300%;color:#f05c06;font-weight:bold;margin-bottom:15px;text-align:center;padding-bottom: 10px;border-bottom-width: 1px;border-bottom-style: solid;border-bottom-color: #CCCCCC}
+h2 {font-size: 220%;color:#eb5c09;font-weight:bold;margin-bottom:15px;text-align:center;padding-bottom: 10px;border-bottom-width: 1px;border-bottom-style: solid;border-bottom-color: #CCCCCC}
 .box {
 	
     display: flex;
